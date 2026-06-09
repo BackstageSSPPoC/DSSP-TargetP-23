@@ -8,9 +8,9 @@
 //         IMAGE_TAG = "${DOCKER_IMAGE}:${DOCKER_TAG}"
 //         GITOPS_REPO = "https://github.com/BackstageSSPPoC/k8s-manifests.git"
 //         APP_PORTS = "5000"
-//         DEPLOY_ENV = "dev"       
-//         DEPLOY_NAMESPACE = "dev"
-//         TARGET_CLUSTER  = 'dev-dssp-cluster-demo-15-dssp-cluster-15'    
+//         DEPLOY_ENV = "qa"       
+//         DEPLOY_NAMESPACE = "qa"
+//         TARGET_CLUSTER  = 'dev-dssp-cluster-demo-17-dssp-cluster-17'    
 //         ARGOCD_SERVER   = '35.184.124.65'                   
 //         TFSTATE_BUCKET  = 'gssp-tfstate-poc-2026'           
 //         MAIN_CONTEXT    = 'gke_gspann-backstage_us-central1_backstage-poc-autopilot'  
@@ -191,9 +191,9 @@ pipeline {
         IMAGE_TAG       = "${DOCKER_IMAGE}:${DOCKER_TAG}"
         GITOPS_REPO     = "https://github.com/BackstageSSPPoC/k8s-manifests.git"
         APP_PORTS       = "5000"
-        DEPLOY_ENV      = "dev"
-        DEPLOY_NAMESPACE = "dev"
-        TARGET_CLUSTER  = "dev-dssp-cluster-demo-15-dssp-cluster-15"
+        DEPLOY_ENV      = "qa"
+        DEPLOY_NAMESPACE = "qa"
+        TARGET_CLUSTER  = "dev-dssp-cluster-demo-17-dssp-cluster-17"
         ARGOCD_SERVER   = '35.184.124.65'
         TFSTATE_BUCKET  = 'gssp-tfstate-poc-2026'
         MAIN_CONTEXT    = 'gke_gspann-backstage_us-central1_backstage-poc-autopilot'
